@@ -1,0 +1,155 @@
+:root{
+  --color1: #05b1b1;
+  --color2: #52339a;
+  --color3: #eee;
+}
+header,footer,section{
+  padding-top: 100px;
+  text-align: center;
+}
+header{
+  padding-top: 200px;
+
+}
+header,footer{
+background:url(../img/pattern.png), var(--color1);
+background:url(../img/pattern.png), -moz-linear-gradient(left,  var(--color1) 0%, var(--color2) 100%);
+background:url(../img/pattern.png), -webkit-linear-gradient(left, var(--color1) 0%,var(--color2)100%);
+background:url(../img/pattern.png), linear-gradient(to right, var(--color1) 0%,var(--color2)100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#020000', endColorstr='#7db9e8',GradientType=1 );
+background-size: contain;
+}
+.play-button{
+  background-color: var(--color1);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: 30px auto -30px;
+  cursor: pointer;
+ transition: all 0.3s;
+ display: flex;
+padding-top: 20px;
+padding-left: 22px;
+margin-top: 30px;
+}
+.play-button:hover{
+  background-color: var(--color2)
+}
+.play{
+  width: 0; 
+  height: 0;
+  border-top: 10px solid transparent;
+  border-left: 20px solid white;
+  border-bottom: 10px solid transparent;
+}
+.btn-itd{
+  width: 200px;
+  font-size: 20px;
+  margin-top: 30px;
+  background-color: var(--color2);
+  color: white;
+  transition: all 0,5s;
+  margin-bottom: 20vh;
+}
+.btn-itd:hover{
+  background-color: var(--color1);
+  color: white;
+}
+.about-container{
+  padding-top: 80px;
+  background-color: #eee;
+  padding-bottom: 80px;
+}
+.color-1{
+  color: var(--color1);
+}
+.color-2{
+  color: var(--color2);
+}
+.bg-1{
+  background-color: var(--color1);
+}
+.bg-2{
+  background-color: var(--color2);
+}
+.line{
+  height: 2px;
+  width: 80px;
+  margin: 0 auto;
+}
+.about-container i{
+  
+  color: var(--color2);
+  border: 2px solid var(--color2);
+  border-radius: 40px;
+  font-size: 25px;
+  padding: 12px;
+
+}
+.salam{
+  margin: 0 auto 15px;
+
+}
+.i-container{
+text-align: center;
+margin-bottom: 30px;
+margin-top: 50px;
+}
+.section2{
+  margin-top: 50px
+}
+
+.s2-text{
+  border: 2px solid var(--color1);
+  padding: 50px;
+}
+.programm-container{
+  background-color:#eee;
+  padding: 60px;
+}
+.acardion{
+  margin-top: 20px;
+}
+.acardion:hover{
+  background-color: var(--color2);
+  
+}
+.accordion-header:hover{
+  color: var(--color2);
+}
+.color-white{
+  color: white;
+}
+
+.feedback{
+  background-color: var(--color3);
+}
+.fb-text .line{
+  width: 100px;
+  margin-bottom: 30px;
+}
+.author-img{
+ max-width: 260px;
+ width: 90%;
+}
+.fb-img{
+  border-radius: 100px ;
+  border: 3px solid var(--color1);
+}
+.book-container{
+  padding-top: 100px;
+}
+.book-button{
+  margin-left: 25vh;
+}
+.book-img{
+  max-width: 550px;
+}
+footer{
+  padding: 30px;
+}
+.footer a{
+  
+  border-radius: 1000px;
+}
